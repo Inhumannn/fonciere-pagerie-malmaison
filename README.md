@@ -1,6 +1,6 @@
 # Magnet Studio
 
-This project is the third HTML/CSS project of the Developpement Langage à la carte training.
+This project is the 2th HTML/CSS project of the Developpement Langage à la carte training.
 It allows practicing the basic concepts of the HTML ans CSS Languages.
 
 ## Getting Started
@@ -14,8 +14,8 @@ These project should be open with live server
 
 ## Authors
 
-  - **Jean-Louis ARRANTE** - *Provided README Template* -
-    [Jean-Louis ERRANTE](https://github.com/JackAdamsJenkins)
+  - **STORYCOM** - *Provided README Template* -
+    [STORYCOM](https://storycom.fr/)
 
 ## License
 
