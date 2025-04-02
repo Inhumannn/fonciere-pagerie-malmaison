@@ -8,19 +8,21 @@ export function Home() {
       <Header />
       <main>
         <section className="min-h-[700px] flex bg-[url(/img/section1-background.png)] bg-center bg-no-repeat bg-cover bg-fixed">
-          <article className="max-w-[585px] m-auto text-white text-center uppercase p-7 bg-[#27697ca3]">
-            <h1 className="text-[40px] font-bold">Bureaux à Rueil Malmaison</h1>
-            <p className="text-[18px] font-medium py-5">
+          <article className="max-w-[585px] m-auto text-white text-center uppercase pt-6 pb-10 sm:p-7 bg-[#27697ca3]">
+            <h1 className="text-[30px] sm:text-[40px] font-bold">
+              Bureaux à Rueil Malmaison
+            </h1>
+            <p className="text-[15px] sm:text-[18px] font-medium py-5">
               Location de bureaux à destination des entreprises
             </p>
-            <a href="#" className="border py-3 px-4">
+            <a href="#" className="border py-3 px-4 text-[14px] sm:text-[16px]">
               Découvez nos bureaux à louer
             </a>
           </article>
         </section>
-        <section className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 p-10">
+        <section className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-3 py-20 sm:p-10">
           <article>
-            <div className="m-[-25px]">
+            <div className="sm:m-[-25px]">
               <h2 className="text-[#27697C] text-2xl font-medium mt-16">
                 Rueil Malmaison
               </h2>
@@ -44,10 +46,10 @@ export function Home() {
                 Pagerie Malmaison.
               </p>
             </div>
-            <div className="pl-12">
+            <div className="sm:pl-12">
               <a
                 href="#"
-                className="mt-6 inline-block bg-[#27697C] text-white py-3 px-6 text-lg rounded-md hover:bg-white hover:text-[#27697C] border-2 border-[#27697C] transition-all duration-300"
+                className="mt-6 inline-block bg-[#27697C] text-center sm:text-start text-white py-3 px-6 text-lg rounded-sm hover:bg-white hover:text-[#27697C] border-2 border-[#27697C] transition-all duration-300"
               >
                 En savoir plus sur Rueil Malmaison
               </a>
@@ -72,7 +74,7 @@ export function Home() {
             className="w-full h-[80%] mt-10"
           />
         </section>
-        <section className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-18 pb-15">
+        <section className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-18 px-3 py-20 sm:p-16">
           <div className="text-center items-center">
             <div className="justify-items-center">
               <BriefcaseBusiness size="20%" color="#27697C" />
@@ -93,13 +95,13 @@ export function Home() {
             <p className="pt-1">Parking à proximité</p>
           </div>
         </section>
-        <section className="bg-[#27697C] text-white p-16">
+        <section className="bg-[#27697C] text-white px-3 py-20 sm:p-16">
           <article className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-18">
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <img
                 src="img/section3-img1.jpg"
                 alt="Illustration"
-                className="object-cover w-full h-[80%] md:col-span-2"
+                className="object-cover w-full h-[80%] sm:col-span-2"
               />
               <img
                 src="img/section3-img2.jpg"
@@ -150,19 +152,21 @@ export function Home() {
               </p>
               <a
                 href="#"
-                className="mt-6 inline-block bg-white text-[#27697C] py-3 px-6 text-lg rounded-md hover:bg-[#27697C] hover:text-white hover:border transition-all duration-300"
+                className="mt-6 inline-block bg-white text-[#27697C] text-center sm:text-start py-3 px-6 text-lg rounded-sm hover:bg-[#27697C] hover:text-white hover:border transition-all duration-300"
               >
                 En savoir plus sur les bureaux de Meaux
               </a>
             </div>
           </article>
         </section>
-        <section className="max-w-6xl mx-auto text-center p-16">
-          <p className="text-[#27697C] text-2xl font-semibold">
+        <section className="max-w-6xl mx-auto text-center px-3 py-20 sm:p-16">
+          <p className="text-[#27697C] text-[20px] smtext-2xl font-semibold">
             Nos bureaux à louer
           </p>
-          <h2 className="text-3xl font-bold mt-4">Rueil Malmaison et Meaux</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
+          <h2 className="text-[22px] sm:text-3xl font-bold mt-4">
+            Rueil Malmaison et Meaux
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 mt-12">
             <div>
               <img
                 src="img/section4-img1.jpg"
@@ -190,68 +194,70 @@ export function Home() {
           </div>
           <a
             href="#"
-            className="mt-6 inline-block bg-[#27697C] text-white py-3 px-6 text-lg rounded-md hover:bg-white hover:text-[#27697C] hover:border transition-all duration-300"
+            className="mt-6 inline-block bg-[#27697C] text-white py-3 px-6 text-lg rounded-sm hover:bg-white hover:text-[#27697C] hover:border transition-all duration-300"
           >
             Voir tous les bureaux
           </a>
         </section>
-        <section id="section-5" class="bg-[#859399] text-white py-14 px-12">
+        <section
+          id="section-5"
+          className="bg-[#859399] text-white px-3 py-20 sm:p-16"
+        >
           <div className="max-w-[700px] m-auto">
-            <h2 class="max-w-4xl m-auto text-[20px] font-semibold pt-6">
+            <h2 className="max-w-4xl m-auto text-[20px] font-semibold pt-6">
               Nous contacter
             </h2>
-            <h3 class="max-w-screen-xl mx-auto text-3xl font-bold mb-12">
+            <h3 className="max-w-screen-xl mx-auto text-3xl font-bold mb-12">
               Pour une question ou une visite
             </h3>
-
             <form
               action=""
-              class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4"
+              className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4"
             >
               <input
                 type="text"
                 name=""
                 id=""
                 placeholder="Votre Nom"
-                class="min-h-[30px] p-2 border border-[#27697C] rounded bg-white placeholder:text-gray-500"
+                className="min-h-[30px] w-auto p-2 border border-[#27697C] rounded bg-white placeholder:text-gray-500"
               />
               <input
                 type="text"
                 name=""
                 id=""
                 placeholder="Votre Prenom"
-                class="min-h-[30px] p-2 border border-[#27697C] rounded bg-white placeholder:text-gray-500"
+                className="min-h-[30px] w-auto p-2 border border-[#27697C] rounded bg-white placeholder:text-gray-500"
               />
               <input
                 type="text"
                 name=""
                 id="entreprise"
                 placeholder="Votre Entreprise"
-                class="min-h-[30px] p-2 border border-[#27697C] rounded col-span-2 bg-white placeholder:text-gray-500"
+                className="min-h-[30px] p-2 border border-[#27697C] rounded sm:col-span-2 bg-white placeholder:text-gray-500"
               />
               <input
                 type="email"
                 name=""
                 id=""
                 placeholder="Votre E-mail"
-                class="min-h-[30px] p-2 border border-[#27697C] rounded bg-white placeholder:text-gray-500"
+                className="min-h-[30px] p-2 border border-[#27697C] rounded bg-white placeholder:text-gray-500"
               />
               <input
                 type="tel"
                 name=""
                 id=""
                 placeholder="Votre Telephone"
-                class="min-h-[30px] p-2 border border-[#27697C] rounded bg-white placeholder:text-gray-500"
+                className="min-h-[30px] p-2 border border-[#27697C] rounded bg-white placeholder:text-gray-500"
               />
               <textarea
                 name=""
                 id="textarea"
                 placeholder="Message"
                 rows="10"
-                class="min-h-[30px] p-2 border border-[#27697C] rounded col-span-2 bg-white placeholder:text-gray-500 "
+                className="min-h-[30px] p-2 border border-[#27697C] rounded sm:col-span-2 bg-white placeholder:text-gray-500 "
               ></textarea>
 
-              <label for="scales" class="col-span-2 text-sm">
+              <label htmlFor="scales" className="sm:col-span-2 text-sm">
                 <input
                   type="checkbox"
                   id="scales"
@@ -269,7 +275,7 @@ export function Home() {
 
             <a
               href="#"
-              class="mt-6 inline-block bg-[#27697C] text-white py-3 px-6 text-lg rounded-md hover:bg-white hover:text-[#27697C] hover:border transition-all duration-300"
+              className="mt-6 inline-block bg-[#27697C] text-white py-3 px-6 text-lg rounded-sm hover:bg-white hover:text-[#27697C] hover:border transition-all duration-300"
             >
               Envoyer
             </a>
